@@ -3,7 +3,7 @@ public class sum_of_digits_of_numbers {
     public static void main(String[] args) {
         int num, n, sum=0;
         Scanner sc= new Scanner (System.in);
-        System.out.println("Eneter a number: ");
+        System.out.println("Enter a number: ");
         num= sc. nextInt();
         while(num>0){
             n=num % 10;
